@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Aggregator</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>News Aggregator</h1>
+      <nav>
+        <button onclick="fetchNews('general')">General</button>
+        <button onclick="fetchNews('movies')">Movies</button>
+        <button onclick="fetchNews('tech')">Tech</button>
+        <button onclick="fetchNews('business')">Business</button>
+        <button onclick="showSavedNews()">Saved News</button>
+ 
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Search" oninput="searchNews()">
+          <i class="material-icons">search</i>
+        </div>
+        <button onclick="showLogin()">Login/Sign Up</button>
+      </nav>
+    </header>
+    <main>
+      <div class="news-list" id="newsList"></div>
+      <div class="news-details" id="newsDetails"></div>
+      <div class="saved-news" id="savedNewsList" style="display:none;"></div>
+    </main>
+    
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
