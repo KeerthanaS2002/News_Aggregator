@@ -1,3 +1,3 @@
 # news-aggregator
  
-[Link Text](https://newsaggregator-psi.vercel.app/)
+Live Sitehttps: //newsaggregator-psi.vercel.app/
