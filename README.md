@@ -1,3 +1,3 @@
-# news-aggregator
- 
-Live Site: https: //newsaggregator-psi.vercel.app/
+## 🚀 Live Demo
+
+You can view the project here: [News Aggregator](https://newsaggregator-psi.vercel.app/)
